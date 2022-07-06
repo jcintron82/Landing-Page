@@ -2,28 +2,73 @@
 	display: flex;
 	border-style: solid;
 	border-color: black;
+	justify-content: space-around;
 }
 
 .container-one {
 	display: flex;
 	border-style: solid;
 	border-color: black;
+	justify-content: center;
+	align-items:center ;
 }
 
 .container-two {
 	display: flex;
 	border-style: solid;
 	border-color: black;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .container-three {
 	display: flex;
 	border-style: solid;
 	border-color: black;
+	
+
 }
 
 .footer{
 	display: flex;
 	border-style: solid;
 	border-color: black;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+li{
+	display: inline;
+	padding: 10px;
+}
+img{ max-height: 200px;
+	
+}
+
+.imageheader{
+	display: flex;
+	border-style: solid;
+	border-color: black;
+
+}
+
+.images{
+	border-style: solid;
+	border-color: black;
+	display: flex;
+	align-items: center;
+	
+}
+
+
+.text {
+	margin-right: 200px;
+
 }
