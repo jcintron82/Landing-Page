@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .header {
 	display: flex;
 	border-style: solid;
@@ -26,4 +27,34 @@
 	display: flex;
 	border-style: solid;
 	border-color: black;
+=======
+.header {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+}
+
+.container-one {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+}
+
+.container-two {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+}
+
+.container-three {
+	display: flex;
+	border-style: solid;
+	border-color: black;
+}
+
+.footer{
+	display: flex;
+	border-style: solid;
+	border-color: black;
+>>>>>>> 051f7da18d5cb1069b86c0534ec43f065f05c2cc
 }
