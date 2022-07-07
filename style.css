@@ -25,18 +25,35 @@
 
 .container-three {
 	display: flex;
+	flex-flow: column nowrap;
 	border-style: solid;
 	border-color: black;
+	justify-content: center;
 	
 
 }
 
 .footer{
 	display: flex;
+	height: 20vh;
+	background-color: gray;
+	justify-content: center;
+	align-items: center;
+
+	}
+
+.footer-float {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: skyblue;
 	border-style: solid;
 	border-color: black;
 }
 
+html, body {
+	height: 100vh;
+}
 ul{
 	list-style-type: none;
 	margin: 0;
