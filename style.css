@@ -1,17 +1,24 @@
 .header {
 	display: flex;
-	border-style: solid;
-	border-color: black;
 	justify-content: space-around;
+	background-color: #1f2937;
 }
 
+.header-text{
+	font-size: 24px;
+	color: #f9faf8;
+	font-weight: bolder;
+
+}
 .container-one {
 	display: flex;
 	border-style: solid;
 	border-color: black;
 	justify-content: center;
-	align-items:center ;
+	align-items:center;
+	background-color: #1f2937;
 }
+
 
 .container-two {
 	display: flex;
@@ -20,6 +27,20 @@
 	flex-flow: row nowrap;
 	justify-content: center;
 	align-items: center;
+	font-size: 18px;
+
+}
+
+.imageheader{
+	display: flex;
+	border-style: solid;
+	border-color: black;
+	align-self: flex-start;
+	justify-content: unsafe center;
+	font-size: 36px;
+	color: #1f2937;
+	font-weight: bolder;
+	padding-bottom: 25px;
 
 }
 
@@ -29,6 +50,18 @@
 	border-style: solid;
 	border-color: black;
 	justify-content: center;
+	font-size: 36px;
+	font-style: italic;
+	color: #1f2937;
+	background-color: #e5e7eb;
+	padding: 100px 100px 100px 50vh;
+	text-align: ;
+
+}
+.container-three-text {
+	padding-right: 50vh;
+
+
 	
 
 }
@@ -36,7 +69,7 @@
 .footer{
 	display: flex;
 	height: 20vh;
-	background-color: gray;
+	
 	justify-content: center;
 	align-items: center;
 
@@ -46,18 +79,32 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: skyblue;
+	background-color: #3882f6;
 	border-style: solid;
-	border-color: black;
+	border-color: #3882f6;
+	color: #f9faf8;
+	border-radius: 10px;
+	font-family: sans-serif;
+}
+
+.footer-button{
+	height: 50px;
+	width:200px;
+	margin: 20px;
+ 	border-color: white;
+	border-radius: 5px; 
+	font-weight: bold;
 }
 
 html, body {
-	height: 100vh;
+	margin: 0;
 }
 ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	font-size: 18px;
+	color: #e5e7eb
 
 }
 
@@ -70,22 +117,27 @@ img{ max-height: 200px;
 	
 }
 
-.imageheader{
-	display: flex;
-	border-style: solid;
-	border-color: black;
-	align-self: flex-start;
-	justify-content: unsafe center;
-
+button {
+	margin-top: 20px;
+	background-color: #3882f6;
+	color:#e5e7eb ;
 }
 
-.images{
 
+.images{
+	padding: auto;
 	
 }
 
 
 .text {
-	margin-right: 200px;
+	margin: 100px;
+	color: #f9faf8;
 
+
+}
+
+p::first-line{
+	font-size: 48px;
+	font-weight: bolder;
 }
